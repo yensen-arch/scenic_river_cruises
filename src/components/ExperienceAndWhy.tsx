@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "All-Inclusive Excellence",
-  description: "Every element of your journey is included—from excursions and fine dining to gratuities, transfers, and a stocked in-suite minibar.",
+  title: "Truly All-Inclusive Value",
+  description: "Gratuities, excursions, and drinks are all included—even at butler-served river suites.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Space and Comfort",
-  description: "Enjoy spacious suites with full-length balconies, marble bathrooms, and personalized butler service.",
+  title: "Tailored Excursions",
+  description: "Offers cultural, active, and enrichment excursions with Scenic Freechoice.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Cultural Enrichment",
-  description: "Choose from a range of included excursions with local guides, exclusive Scenic Enrich events, and Scenic Freechoice activities tailored to your interests.",
+  title: "Scenic Enrich Events",
+  description: "Exclusive, once-in-a-lifetime private performances and gala evenings.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Fine Dining and Local Flavors",
-  description: "Dine at multiple venues serving regionally inspired menus, paired with premium wines and spirits.",
+  title: "Onboard Technology",
+  description: "Cabins include in-room Mac Mini systems and GPS touring devices.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Scenic River Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
